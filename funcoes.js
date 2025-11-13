@@ -1,16 +1,16 @@
 function fazerlogin(){
-    let login = document.getElementById('login').Value
-    let senha = document.getElementById('senha').Value
+    let login = document.getElementById('login').value
+    let senha = document.getElementById('senha').value
 
     if(login === 'cenep' && senha === 'cenep123'){
         alert('login ou senha corretos!')
-        localStorage.setItem('nome . login')
-        window.location.href = 'pagina2.html
+        localStorage.setItem('nome', login)
+        window.location.href = 'pagina2.html'
     }else{
         alert('Login ou senha Incorreto!')
     }
     
         
     }
-    document.getElementById('titulo').innerHTML
+    document.getElementById('titulo').innerHTML +=
     localStorage.getItem('titulo')
